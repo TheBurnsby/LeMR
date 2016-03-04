@@ -1,45 +1,40 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+@extends('layouts.app')
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="columns medium-6 small-12">
+            <div class="panel panel-default">
+                <h3>Welcome</h3>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
-
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Capa v0.1</div>
+                <div class="callout">
+                    <p class="subheader">Creators: Michael Cooper, Jon Burns, Sam Burns, Ryan Anderson</p>
+                </div>
             </div>
         </div>
-    </body>
-</html>
+        <div class="columns medium-6 small-12">
+            <h3>Services</h3>
+            <div class="row small-up-1 medium-up-2 large-up-3">
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+              <div class="column">
+                <img src="//placehold.it/500x500" alt="">
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

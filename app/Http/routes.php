@@ -1,7 +1,5 @@
 <?php
 
-use App\Task;
-use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Routes File
@@ -12,28 +10,6 @@ use Illuminate\Http\Request;
 | and give it the controller to call when that URI is requested.
 |
 */
-
-/**
- * Display All Tasks
- */
-Route::get('/', function () {
-    //
-});
-
-/**
- * Add A New Task
- */
-Route::post('/task', function (Request $request) {
-    //
-});
-
-/**
- * Delete An Existing Task
- */
-Route::delete('/task/{id}', function ($id) {
-    //
-});
-
 
 /*
 |--------------------------------------------------------------------------
@@ -47,5 +23,15 @@ Route::delete('/task/{id}', function ($id) {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+    Route::get('/', function () {
+        return view('welcome');
+    })->middleware('guest');
+
+    Route::get('/tasks', 'TaskController@index');
+    Route::post('/task', 'TaskController@store');
+    Route::delete('/task/{task}', 'TaskController@destroy');
+
+    Route::auth();
+
 });
