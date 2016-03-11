@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Git Test
+                    Created by: Michael Cooper, Jon Burns, Sam Burns, and Ryan Anderson.
                 
                 </div>
             </div>
