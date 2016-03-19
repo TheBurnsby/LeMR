@@ -1,16 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="login-wrapper">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="login-container">
             <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
-
-                <div class="panel-body">
-                    Created by: Michael Cooper, Jon Burns, Sam Burns, and Ryan Anderson. asldjfalksdf
-                
-                </div>
+                <h3>Welcome to LeMR!</h3>
+                <p>Created by Michael Cooper, Jon Burns, Sam Burns, and Ryan Anderson.</p>
+                <a href="/login/" class="button">
+                    <i class="fa fa-btn fa-sign-in"></i> Login
+                </a>
             </div>
         </div>
     </div>

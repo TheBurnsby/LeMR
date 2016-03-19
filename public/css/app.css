@@ -1,0 +1,33 @@
+body {
+	font-family: Lato;
+}
+.top-bar {
+	color: 	#fff;
+	background: #000;
+}
+.login-wrapper {
+	height: 100%;
+	width: 100%;
+	background-image: url("http://res.cloudinary.com/dbc2wlvk8/image/upload/v1453330697/PeaksSliderImage1_afd16c.png");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.login-container {
+	background-color: rgba(0,0,0,.8);
+	border-radius: 12px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 30px;
+	width: 100%;
+	max-width: 800px;
+	color: #fff;
+}
+.login-container label {
+	color: #fff;
+}
+.login-container .branding {
+	float: right;
+}
