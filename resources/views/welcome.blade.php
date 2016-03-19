@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Created by: Michael Cooper, Jon Burns, Sam Burns, and Ryan Anderson.
+                    Created by: Michael Cooper, Jon Burns, Sam Burns, and Ryan Anderson. asldjfalksdf
                 
                 </div>
             </div>
